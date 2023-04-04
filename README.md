@@ -1,5 +1,5 @@
 # name2user
-name2user is a tool to generate potential user names from one or a list of full names. Possible use-cases are password cracking with tools like hydra together with a word list or account discovery in for different services.
+name2user is a tool to generate potential user names from one or a list of full names. Possible use-cases are password cracking with tools like hydra together with a word list or account discovery in different services.
 
 ## Usage
 ```shell
@@ -39,8 +39,8 @@ name2user support seven conversion modes:
 | fdlast        | First letter of the first name, dot, last name. |
 | full          | Full first- and last name without spaces.       |
 | fulld         | Full first- and last name separated by dots.    |
-| first         | First name only                                 |
+| first         | First name only.                                 |
 
 ## Limitations
-- Right now, name2user is designed with western languages in mind. It might produce less helpful results for other
+- Right now, name2user is designed with western languages in mind. It might produce less helpful results for other.
 - For names with more than two words, the last word is considered as last name. The first letter of the first word will be used for corresponding conversion types. Ones using the full name will include all words.

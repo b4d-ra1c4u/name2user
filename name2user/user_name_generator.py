@@ -1,4 +1,4 @@
-from user_name_creation_methods import UserNameCreationMethods
+from .user_name_creation_methods import UserNameCreationMethods
 
 class UserNameGenerator:
 

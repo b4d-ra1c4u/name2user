@@ -2,8 +2,8 @@
 
 import sys
 import argparse
-from user_name_creation_methods import UserNameCreationMethods
-from user_name_generator import UserNameGenerator
+from .user_name_creation_methods import UserNameCreationMethods
+from .user_name_generator import UserNameGenerator
 
 # Description text
 desc_text = f"""Converts full names to user names.
@@ -69,6 +69,3 @@ def main():
     # Print out generated names
     for line in usernames:
         print(line)
-
-# Execute main function
-main()

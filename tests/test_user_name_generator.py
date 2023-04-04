@@ -1,9 +1,9 @@
-from user_name_generator import UserNameGenerator
-from user_name_creation_methods import UserNameCreationMethods
-import unittest
+from name2user.user_name_generator import UserNameGenerator
+from name2user.user_name_creation_methods import UserNameCreationMethods
+from unittest import TestCase
 
 # Test class
-class TestName2User(unittest.TestCase):
+class TestName2User(TestCase):
 
     def test_build_usernames(self):
 
@@ -75,4 +75,4 @@ class TestName2User(unittest.TestCase):
 
 # Run the tests
 if __name__ == '__main__':
-    unittest.main()
+    TestCase.main()
